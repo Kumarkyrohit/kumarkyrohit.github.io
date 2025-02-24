@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Kumar | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #EDE7C7;
+            color: #12202E;
+        }
+        header, #hero, .project, footer {
+            background: #EDE7C7;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #12202E;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 50px 20px;
+        }
+        .project {
+            padding: 20px;
+            margin: 10px auto;
+            width: 80%;
+            max-width: 600px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+            color: #8B0000;
+        }
+        .project img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        footer {
+            color: #8B0000;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        img.profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <h1>Hi, I'm Rohit Kumar</h1>
+        <p>Data Scientist | Analyst | Problem Solver</p>
+        <img src="profile.jpg" alt="Rohit Kumar" class="profile-pic">
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="about.jpg" alt="About Me" style="width: 80%; max-width: 400px; border-radius: 10px;">
+        <p>I'm a data scientist passionate about extracting insights from data and solving real-world problems.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>Power BI</li>
+            <li>Machine Learning</li>
+            <li>Data Cleaning & Analysis</li>
+        </ul>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Algerian Forest Fires Analysis">
+            <h3>Algerian Forest Fires Analysis</h3>
+            <p>Predicting Fire Weather Index using machine learning models.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Sentiment Analysis with Deep Learning">
+            <h3>Sentiment Analysis with Deep Learning</h3>
+            <p>Analyzing sentiment trends in large datasets using NLP models.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:rohit@example.com" style="color: #8B0000;">rohit@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/rohitkumar" target="_blank" style="color: #8B0000;">linkedin.com/in/rohitkumar</a></p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Rohit Kumar</p>
+    </footer>
+</body>
+</html>
